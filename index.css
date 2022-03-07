@@ -23,7 +23,8 @@ li{
 }
 @media (max-width:676px){
     body{
-        flex-direction: column;
+        display:flex;
+        justify-content:center;
     }
     .container{
         margin: 0px;
