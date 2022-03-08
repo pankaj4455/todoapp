@@ -1,11 +1,14 @@
 let button=document.getElementById('btn');
  button.addEventListener('click',()=>{
-    let input=document.getElementById('demo').value;
+    let value=document.getElementById('demo').value;
    let list=document.getElementById('list');
     let li=document.createElement('li')
-    
+    let input=document.createElement('input');
+  input.type="text";
+  input.value=value;
+  
    list.appendChild(li);
-  li.textContent=input;
+  li.appendChild(input);
   document.getElementById('demo').value="";
   let boton =document.createElement('button');
   boton.innerText="delete";
