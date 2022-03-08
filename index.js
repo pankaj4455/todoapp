@@ -14,7 +14,7 @@ let button=document.getElementById('btn');
   boton.innerText="delete";
   li.append(boton);
 });
-let delet=document.querySelector('ul');
+let delet=document.querySelector('boton');
 delet.addEventListener('click',(e)=>{
     let list =document.getElementById('list');
     let li=e.target.parentNode;
